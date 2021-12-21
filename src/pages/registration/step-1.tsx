@@ -1,4 +1,5 @@
 import React from 'react';
+import Layout from "../../components/Layout";
 
 const StepOne = () => {
   return (
@@ -7,5 +8,9 @@ const StepOne = () => {
     </div>
   );
 };
+
+StepOne.getLayout = function getLayout(page: typeof StepOne) {
+  return <Layout>{page}</Layout>
+}
 
 export default StepOne;
