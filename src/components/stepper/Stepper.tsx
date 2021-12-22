@@ -9,7 +9,7 @@ const Stepper = ({ children }: { children: React.ReactNode }) => {
           .reduce((previousStep, currentStep) => (
             <>
               {previousStep}
-              <div className="border-t-2 border-gray-500 w-20" />
+              <div className="border-t-2 border-slate-500 w-20" />
               {currentStep}
             </>
           ))

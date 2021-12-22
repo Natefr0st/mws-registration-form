@@ -11,6 +11,7 @@ const StepOne = () => {
         type="text"
         name="email"
         placeholder="Email"
+        changeHandler={() => {}}
       />
       <Input
         type="password"
@@ -18,11 +19,11 @@ const StepOne = () => {
         placeholder="Password"
       />
       <div className="text-center mt-8">
-        <button className="w-[15rem] px-4 py-3 text-white bg-slate-500 rounded-3xl">
-          <Link href="/registration/step-2">
+        <Link href="/registration/step-2">
+          <a className="px-16 py-3 text-white bg-slate-500 rounded-3xl" role="button">
             Continue
-          </Link>
-        </button>
+          </a>
+        </Link>
       </div>
     </div>
   );

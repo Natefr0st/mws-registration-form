@@ -2,7 +2,7 @@ import React from 'react';
 
 import { InputProps } from "../../interfaces/InputProps";
 
-const Input = ({ type, name, placeholder }: InputProps) => {
+const Input = ({ type, name, placeholder, changeHandler }: InputProps) => {
   return (
     <div>
       <input
@@ -10,6 +10,7 @@ const Input = ({ type, name, placeholder }: InputProps) => {
         type={type}
         name={name}
         placeholder={placeholder}
+        onChange={changeHandler}
       />
     </div>
   );

@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87ffc5aa-58d9-4092-879d-3d3344619a34" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/__tests__/step-1.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/stepper/Step.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/stepper/Step.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/stepper/Stepper.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/stepper/Stepper.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/StepProps.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/registration/step-2.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/registration/step-3.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__tests__/step-1.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/__tests__/step-1.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input/Input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/stepper/Step.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/stepper/Step.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/stepper/Stepper.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/stepper/Stepper.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/stepper/Stepper.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/stepper/Stepper.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/InputProps.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/InputProps.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/registration/step-1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/registration/step-1.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -53,6 +53,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../registration-form-nextjs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
     <property name="ts.external.directory.path" value="C:\Users\kevin.zino\Desktop\Dev\mws-registration-form\node_modules\typescript\lib" />
@@ -62,6 +63,40 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\kevin.zino\Desktop\Dev\mws-registration-form\src" />
     </key>
+  </component>
+  <component name="RunManager" selected="Jest.Input.should render input field">
+    <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Input.should render input field" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/input/Input.test.tsx" />
+      <test-names>
+        <test-name value="Input" />
+        <test-name value="should render input field" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Jest.All Tests" />
+      <item itemvalue="Jest.Input.should render input field" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.Input.should render input field" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -75,7 +110,7 @@
       <workItem from="1640091013996" duration="16947000" />
       <workItem from="1640112695675" duration="973000" />
       <workItem from="1640113695667" duration="3932000" />
-      <workItem from="1640156896577" duration="25522000" />
+      <workItem from="1640156896577" duration="33093000" />
     </task>
     <servers />
   </component>
@@ -92,5 +127,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mws_registration_form$All_Tests.info" NAME="All Tests Coverage Results" MODIFIED="1640202824659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/mws_registration_form$Input_should_render_input_field.info" NAME="Input.should render input field Coverage Results" MODIFIED="1640202896581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
