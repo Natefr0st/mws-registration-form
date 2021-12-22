@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87ffc5aa-58d9-4092-879d-3d3344619a34" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/input/Input.test.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/input/Input.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/InputProps.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/LiteralUnion.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__tests__/step-1.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/stepper/Step.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/stepper/Step.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/stepper/Stepper.test.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/stepper/Stepper.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/StepProps.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input/Input.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/registration/step-1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/registration/step-1.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -74,7 +75,7 @@
       <workItem from="1640091013996" duration="16947000" />
       <workItem from="1640112695675" duration="973000" />
       <workItem from="1640113695667" duration="3932000" />
-      <workItem from="1640156896577" duration="12655000" />
+      <workItem from="1640156896577" duration="25522000" />
     </task>
     <servers />
   </component>
