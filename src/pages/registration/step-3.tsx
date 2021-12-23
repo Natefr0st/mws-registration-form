@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Step3 = () => {
+const StepThree = () => {
   return (
     <div>
       <h2>Step 3</h2>
@@ -8,4 +8,4 @@ const Step3 = () => {
   );
 };
 
-export default Step3;
+export default StepThree;

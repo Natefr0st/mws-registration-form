@@ -1,10 +1,13 @@
 import React, { useContext } from 'react';
+import Link from "next/link";
 
 import Layout from "../../components/Layout";
 import Input from "../../components/input/Input";
-import Link from "next/link";
+import { FormContext } from "../../context/FormContext";
 
 const StepOne = () => {
+  const [state, setState]: any = useContext(FormContext);
+
   return (
     <div className="w-full mt-6">
       <Input

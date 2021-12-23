@@ -9,7 +9,7 @@ const initialState: FormContextInterface = {
   lastName: "",
 }
 
-export const FormContext = React.createContext();
+export const FormContext = React.createContext([initialState, {}]);
 
 const FormProvider = ({children}: {children: React.ReactNode}) => {
   const [state, setState] = useState(initialState);

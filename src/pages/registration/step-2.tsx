@@ -1,6 +1,6 @@
-import React from 'react';
+import React, {useContext} from 'react';
 
-const Step2 = () => {
+const StepTwo = () => {
   return (
     <div>
       <h2>Step 2</h2>
@@ -8,4 +8,4 @@ const Step2 = () => {
   );
 };
 
-export default Step2;
+export default StepTwo;

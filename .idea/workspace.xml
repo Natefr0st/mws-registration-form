@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87ffc5aa-58d9-4092-879d-3d3344619a34" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/context/FormContext.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/FormContextInterface.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/context/FormContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/FormContext.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/registration/step-1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/registration/step-1.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/registration/step-2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/registration/step-2.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/registration/step-3.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/registration/step-3.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -45,7 +46,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-context" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
@@ -67,6 +68,20 @@
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FormContext.should show default state" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/context/FormContext.test.tsx" />
+      <test-names>
+        <test-name value="FormContext" />
+        <test-name value="should show default state" />
+      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="Input.should be able to type into input" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -101,9 +116,11 @@
       <item itemvalue="Jest.All Tests" />
       <item itemvalue="Jest.Input.should render input field" />
       <item itemvalue="Jest.Input.should be able to type into input" />
+      <item itemvalue="Jest.FormContext.should show default state" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.FormContext.should show default state" />
         <item itemvalue="Jest.Input.should be able to type into input" />
         <item itemvalue="Jest.Input.should render input field" />
       </list>
@@ -123,7 +140,8 @@
       <workItem from="1640113695667" duration="3932000" />
       <workItem from="1640156896577" duration="33686000" />
       <workItem from="1640239439727" duration="4795000" />
-      <workItem from="1640244656521" duration="12639000" />
+      <workItem from="1640244656521" duration="14974000" />
+      <workItem from="1640262004271" duration="10019000" />
     </task>
     <servers />
   </component>
