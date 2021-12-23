@@ -11,6 +11,14 @@ describe("Step One Page", () => {
     expect(emailInputField).toBeInTheDocument();
   });
 
+  it("should render password input field", () => {
+    render(<StepOne />)
+
+    const passwordInputField = screen.getByPlaceholderText("Password");
+
+    expect(passwordInputField).toBeInTheDocument();
+  });
+
   it("should render continue button", () => {
     render(<StepOne />)
 

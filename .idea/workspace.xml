@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="87ffc5aa-58d9-4092-879d-3d3344619a34" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/input/Input.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input/Input.test.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +65,20 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
+    <configuration name="Input.should be able to type into input" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/input/Input.test.tsx" />
+      <test-names>
+        <test-name value="Input" />
+        <test-name value="should be able to type into input" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="Input.should render input field" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -83,9 +96,11 @@
     <list>
       <item itemvalue="Jest.All Tests" />
       <item itemvalue="Jest.Input.should render input field" />
+      <item itemvalue="Jest.Input.should be able to type into input" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Input.should be able to type into input" />
         <item itemvalue="Jest.Input.should render input field" />
       </list>
     </recent_temporary>
@@ -103,7 +118,7 @@
       <workItem from="1640112695675" duration="973000" />
       <workItem from="1640113695667" duration="3932000" />
       <workItem from="1640156896577" duration="33686000" />
-      <workItem from="1640239439727" duration="1598000" />
+      <workItem from="1640239439727" duration="3900000" />
     </task>
     <servers />
   </component>
