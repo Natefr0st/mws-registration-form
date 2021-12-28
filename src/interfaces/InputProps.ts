@@ -1,3 +1,5 @@
+import React from "react";
+
 import { LiteralUnion } from "../types/LiteralUnion";
 
 export interface InputProps {
@@ -21,5 +23,6 @@ export interface InputProps {
     >;
   name?: string;
   placeholder?: string;
-  changeHandler?(): void;
+  value?: string;
+  changeHandler?(event: React.ChangeEvent<HTMLInputElement>): void;
 }

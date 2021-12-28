@@ -1,18 +1,17 @@
-import React from 'react';
+import React from "react";
 
 import { InputProps } from "../../interfaces/InputProps";
 
-const Input = ({ type, name, placeholder, changeHandler }: InputProps) => {
+const Input = ({type, name, placeholder, changeHandler, value}: InputProps) => {
   return (
-    <div>
-      <input
-        className="w-full rounded border-2 border-slate-600 p-3 mb-4"
-        type={type}
-        name={name}
-        placeholder={placeholder}
-        onChange={changeHandler}
-      />
-    </div>
+    <input
+      className="w-full rounded border-2 border-slate-600 p-3 mb-4"
+      type={type}
+      name={name}
+      placeholder={placeholder}
+      value={value}
+      onChange={changeHandler}
+    />
   );
 };
 
