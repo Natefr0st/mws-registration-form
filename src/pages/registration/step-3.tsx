@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Layout from "../../components/Layout";
+
 const StepThree = () => {
   return (
     <div>
@@ -7,5 +9,9 @@ const StepThree = () => {
     </div>
   );
 };
+
+StepThree.getLayout = function getLayout(page: typeof StepThree) {
+  return <Layout>{page}</Layout>
+}
 
 export default StepThree;
