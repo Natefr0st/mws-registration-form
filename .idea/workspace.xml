@@ -1,27 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32252a6c-5618-4ee7-a173-0313bebf4ba5" name="Changes" comment="">
+    <list default="true" id="3dc21ec9-ee6b-44b4-91ba-35eeeece827a" name="createMockRouter" comment="">
+      <change afterPath="$PROJECT_DIR$/src/utils/createMockRouter.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/input/Input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input/Input.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hooks/useForm.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks/useForm.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/registration/step-1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/registration/step-1.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/registration/step-2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/registration/step-2.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/registration/step-3.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/registration/step-3.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__tests__/step-1.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/__tests__/step-1.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/FormContextInterface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/FormContextInterface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/InputProps.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/InputProps.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/types/LiteralUnion.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-        <option value="TypeScript File" />
-        <option value="TypeScript JSX File" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,7 +29,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="22arQf2tI0BhnxIiUVyafwjpJ2z" />
+  <component name="ProjectId" id="23EAunVWOK8BJV1Dv5xO6K1hf43" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,103 +38,89 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../registerform-nextjs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../react-testing-starter" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="ts.external.directory.path" value="C:\Programs\JetBrains\WebStorm 2021.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="C:\Users\kevin.zino\Desktop\Dev\mws-registration-form\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\kevin.zino\Desktop\Dev\mws-registration-form\src" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Jest.All Tests">
-    <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
+  <component name="RunManager" selected="Jest.should navigate to /registration/step-2 when continue button is clicked">
+    <configuration name="Step One Page" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="ALL" />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/step-1.test.tsx" />
+      <test-names>
+        <test-name value="Step One Page" />
+      </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="FormContext.should show default state" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Step One Page.should navigate to /registration/step-02 when continue button is clicked" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/context/FormContext.test.tsx" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/step-1.test.tsx" />
       <test-names>
-        <test-name value="FormContext" />
-        <test-name value="should show default state" />
+        <test-name value="Step One Page" />
+        <test-name value="should navigate to /registration/step-02 when continue button is clicked" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Input.should be able to type into input" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="should navigate to /registration/step-02 when continue button is clicked" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/input/Input.test.tsx" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/step-1.test.tsx" />
       <test-names>
-        <test-name value="Input" />
-        <test-name value="should be able to type into input" />
+        <test-name value="should navigate to /registration/step-02 when continue button is clicked" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Input.should render input field" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="should navigate to /registration/step-2 when continue button is clicked" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/input/Input.test.tsx" />
+      <test-file value="$PROJECT_DIR$/src/__tests__/step-1.test.tsx" />
       <test-names>
-        <test-name value="Input" />
-        <test-name value="should render input field" />
+        <test-name value="should navigate to /registration/step-2 when continue button is clicked" />
       </test-names>
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Jest.All Tests" />
-      <item itemvalue="Jest.Input.should render input field" />
-      <item itemvalue="Jest.Input.should be able to type into input" />
-      <item itemvalue="Jest.FormContext.should show default state" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.FormContext.should show default state" />
-        <item itemvalue="Jest.Input.should be able to type into input" />
-        <item itemvalue="Jest.Input.should render input field" />
+        <item itemvalue="Jest.should navigate to /registration/step-2 when continue button is clicked" />
+        <item itemvalue="Jest.Step One Page" />
+        <item itemvalue="Jest.should navigate to /registration/step-02 when continue button is clicked" />
+        <item itemvalue="Jest.Step One Page.should navigate to /registration/step-02 when continue button is clicked" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="32252a6c-5618-4ee7-a173-0313bebf4ba5" name="Changes" comment="" />
-      <created>1640086529333</created>
+      <changelist id="3dc21ec9-ee6b-44b4-91ba-35eeeece827a" name="Changes" comment="" />
+      <created>1641289105284</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1640086529333</updated>
-      <workItem from="1640086532982" duration="3006000" />
-      <workItem from="1640091013996" duration="16947000" />
-      <workItem from="1640112695675" duration="973000" />
-      <workItem from="1640113695667" duration="3932000" />
-      <workItem from="1640156896577" duration="33686000" />
-      <workItem from="1640239439727" duration="4795000" />
-      <workItem from="1640244656521" duration="14974000" />
-      <workItem from="1640262004271" duration="10019000" />
-      <workItem from="1640761273875" duration="18940000" />
+      <updated>1641289105284</updated>
+      <workItem from="1641289110983" duration="52000" />
+      <workItem from="1641302560957" duration="6446000" />
+      <workItem from="1641461089684" duration="5561000" />
     </task>
     <servers />
   </component>
@@ -160,8 +138,8 @@
       </map>
     </option>
   </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/mws_registration_form$All_Tests.info" NAME="All Tests Coverage Results" MODIFIED="1640202824659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/mws_registration_form$Input_should_render_input_field.info" NAME="Input.should render input field Coverage Results" MODIFIED="1640202896581" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

@@ -1,5 +1,4 @@
 import React, { MouseEvent } from "react";
-import Link from "next/link";
 import { useRouter } from "next/router";
 
 import Layout from "../../components/Layout";
@@ -16,7 +15,7 @@ const StepOne = () => {
    * @param {object} event Event Object
    * @returns {void}
    */
-  const handleNextPage = (event: MouseEvent<HTMLButtonElement>) => {
+  const continueToStepTwo = (event: MouseEvent<HTMLButtonElement>) => {
     event.preventDefault();
 
     router.push("/registration/step-2");
@@ -47,7 +46,7 @@ const StepOne = () => {
       <div className="text-center mt-8">
         <button
           className="px-16 py-3 text-white bg-slate-500 rounded-3xl"
-          onClick={handleNextPage}
+          onClick={continueToStepTwo}
         >
           Continue
         </button>
